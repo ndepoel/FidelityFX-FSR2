@@ -138,7 +138,7 @@ FfxErrorCode ffxFsr2GetInterfaceDX11(
     return FFX_OK;
 }
 
-void TIF(HRESULT result)
+static void TIF(HRESULT result)
 {
     if (FAILED(result))
     {
